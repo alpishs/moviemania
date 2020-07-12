@@ -1,6 +1,6 @@
 FactoryBot.define do
   factory :episode do
     sequence(:title) { |n| "Episode: #{n}" }
-    plot { "Lorem ipsum dolor sit amet." }
+    plot { "The winter is coming." }
   end
 end

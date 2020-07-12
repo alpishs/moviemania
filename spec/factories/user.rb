@@ -1,6 +1,6 @@
 FactoryBot.define do
   factory :user do
-    email { "test@user.com"}
+    email { "alpishs@yahoo.com"}
     factory :user_with_purchases do
       after :create do |user|
         create_list :purchase_movie, 2, user: user

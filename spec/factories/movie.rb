@@ -1,8 +1,8 @@
 FactoryBot.define do
   factory :movie do
     sequence :title do |n| 
-      "Il Padrino #{n}"
+      "MI-6 fallout #{n}"
     end
-    plot { "Lorem ipsum dolor sit amet." }
+    plot { "Hey its mission." }
   end
 end
